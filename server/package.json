@@ -1,0 +1,19 @@
+{
+  "name": "quarantine-server",
+  "version": "1.0.0",
+  "description": "Virus Quarantine & Treatment Facility - Backend API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
